@@ -1,0 +1,244 @@
+ *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*  
+ Scenario Specification: 3-D FULL FATES Model     
+ *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*  
+
+ Scenario Name :     D5000_GOR100_LIGHT-MID              
+ Description   : 5000 foot depth, GOR = 1, LA Light oil            
+
+ Oil Spilled   : South Louisiana Crude (Light_Mid)                 
+ Spill Amount  :   100000.00 barrels       =    13542.51 Metric Tons
+
+ Spill Location:
+ Longitude (deg., min.):  89  52.8461 (W) = 89.88077 (W)
+ Latitude  (deg., min.):  27  22.3274 (N) = 27.37212 (N)
+
+ Spill Starts (Yr, Mo, Day, Hr:min):1993  Jan.  1   15: 0
+ Release Duration (hrs)        :  24.00
+ Portion in first release       : 1.000
+ Duration - first release (hrs):  24.00
+ Portion in second release      : 0.000
+ Start of second release (hrs) :  24.00
+
+ Simulation Time Step Fixed (hrs) :   0.25000
+ Length of the Simulation (days)  :   2.0
+
+ Subsurface release, max. droplet diameter (um):    638.0
+
+ Number of droplet size classes simulated      :       20
+ Size distribution -- Delvigne & Sweeney
+
+ Initial dilution of the droplets after spilled:
+   Within depth range of :    1434.0 m -    1524.0 m
+   Diluted by a factor of:       1.0
+
+ Random number seed =      0 (used to rerun stochastic runs)
+
+ Number of Sublots (Lagrangian particles) Simulated:
+   Number of Surface Spillets     :       100
+   Number of Aromatic Particles   :     30000
+   Number of Oil Droplet Particles:      2000
+
+
+  0 Windfile(s) Used:
+ Surface Oil wind drift factor:   3.5 %
+ Surface Oil wind drift angle :  20.0 deg.
+
+ Current file        : GOM_3D93.DX3                            
+ Type of current data:  3-D, rectilinear grid, time-varying currents
+
+
+ Habitat Grid File: GULFMEX.HAB                             
+ Origin Longitude,Latitude (deg.):   -97.708839   21.445950
+ Number of cells  W-E, S-N:                 100          80
+ Cell size (deg.) W-E, S-N:            0.152593    0.113059
+ Cell size (m)    W-E, S-N:            15765.11    12549.55
+ Cell area(m2), length if shore(m):197844960.00    14065.74
+
+
+ Shoreline width and oil retention:
+                                                        Maximum Thickness Retained (mm) Removal 1/2
+ Shore type                                 Width (m)    Visc<30cp 30-2000cp   >2000cp  Life(days)
+ Seaward rocky shoreline                      2.0              1.0       2.0       2.0       1.000
+ Seaward gravel beach                         3.0              2.0       9.0      15.0      10.000
+ Seaward sand beach                           10.              4.0      17.0      25.0       5.000
+ Seaward mud flat (fringing)                  10.              3.0       6.0      10.0       1.000
+ Seaward wetland (saltmarsh, mangrove)       0.14E+03          6.0      30.0      40.0     500.000
+ Seaward shore: seagrass or seaweed           2.0              1.0       2.0       2.0       1.000
+ Seaward intertidal mollusk reef              2.0              1.0       2.0       2.0       1.000
+ Seaward intertidal coral reef                2.0              1.0       2.0       2.0       1.000
+ Seaward artificial shoreline                0.10              0.0       0.1       0.1       1.000
+ Seaward ice edge                             3.0              2.0       4.0       6.0       1.000
+ Landward rocky shoreline                     2.0              1.0       5.0      10.0      50.000
+ Landward gravel beach                        3.0              2.0       9.0      15.0      10.000
+ Landward sand beach                          10.              4.0      17.0      25.0       5.000
+ Landward mud flat (fringing)                0.14E+03          6.0      30.0      40.0     500.000
+ Landward wetland (saltmarsh, mangrove)      0.14E+03          6.0      30.0      40.0     500.000
+ Landward shore: seagrass or Landweed         2.0              1.0       5.0      10.0      50.000
+ Landward intertidal mollusk reef             2.0              1.0       5.0      10.0      50.000
+ Landward intertidal coral reef               2.0              1.0       5.0      10.0      50.000
+ Landward artificial shoreline               0.10              0.0       0.1       0.1       1.000
+ Landward ice edge                            3.0              2.0       4.0       6.0       1.000
+
+
+ Habitat areas and shoreline lengths in grid:
+
+ Seaward Habitat Name                               Area (m2)  Shore Length (m)
+ Seaward rocky shoreline                                  0.0               0.0
+ Seaward gravel beach                                     0.0               0.0
+ Seaward sand beach                                44447732.0         4444773.0
+ Seaward mud flat (fringing)                              0.0               0.0
+ Seaward wetland (saltmarsh, mangrove)                    0.0               0.0
+ Seaward shore: seagrass or seaweed                       0.0               0.0
+ Seaward intertidal mollusk reef                          0.0               0.0
+ Seaward intertidal coral reef                            0.0               0.0
+ Seaward subtidal rock bottom                             0.0
+ Seaward subtidal gravel bottom                           0.0
+ Seaward subtidal sand bottom                 1395994001408.0
+ Seaward subtidal silt-mud bottom                         0.0
+ Seaward subtidal areas in wetlands                       0.0
+ Seaward subtidal macroalgal bed                          0.0
+ Seaward subtidal mollusk reef                            0.0
+ Seaward subtidal coral reef                              0.0
+ Seaward subtidal seagrass bed                            0.0
+ Seaward artificial shoreline                             0.0               0.0
+ Seaward ice edge                                         0.0               0.0
+ Seaward extensive mud flat                               0.0
+ Seaward extensive wetland:marsh/mangr.                   0.0
+
+ Landward Habitat Name                              Area (m2)  Shore Length (m)
+ Landward rocky shoreline                                 0.0               0.0
+ Landward gravel beach                                    0.0               0.0
+ Landward sand beach                                      0.0               0.0
+ Landward mud flat (fringing)                             0.0               0.0
+ Landward wetland (saltmarsh, mangrove)                   0.0               0.0
+ Landward shore: seagrass or Landweed                     0.0               0.0
+ Landward intertidal mollusk reef                         0.0               0.0
+ Landward intertidal coral reef                           0.0               0.0
+ Landward subtidal rock bottom                            0.0
+ Landward subtidal gravel bottom                          0.0
+ Landward subtidal sand bottom                            0.0
+ Landward subtidal silt-mud bottom                        0.0
+ Landward subtidal areas in wetlands                      0.0
+ Landward subtidal macroalgal bed                         0.0
+ Landward subtidal mollusk reef                           0.0
+ Landward subtidal coral reef                             0.0
+ Landward subtidal seagrass bed                           0.0
+ Landward artificial shoreline                            0.0               0.0
+ Landward ice edge                                        0.0               0.0
+ Landward extensive mud flat                              0.0
+ Landward extensive wetland:marsh/mangr.                  0.0
+
+
+ Fetch calculated from grid.
+
+
+ Horizontal Turbulent Dispersion Coefficients:
+                  Advective (at surface):        6.0000 m2/sec
+          Advective (upper water column):        5.0000 m2/sec
+          Advective (lower water column):        2.0000 m2/sec
+          Spreading (upper water column):        2.0000 m2/sec
+          Spreading (lower water column):        2.0000 m2/sec
+
+ Vertical Turbulent Diffusion Coefficients: 
+          Advective (upper water column):        0.0002 m2/sec
+          Advective (lower water column):        0.0002 m2/sec
+          Spreading (upper water column):        0.0002 m2/sec
+          Spreading (lower water column):        0.0002 m2/sec
+
+ Water Temperature (deg.C) at release depth, at spill site and time of spill:     15.0
+ Salinity (ppt) at release depth, at spill site and time of spill:     32.0
+ Water Density (g/cm3) at release depth, at spill site and time of spill:  1.02366
+   Density is calculated from salinity and temperature.
+ Pycnocline depth at spill site and time of spill:      0.0
+
+
+ Suspended Sediment Concentration (mg/l): 10.00
+ Susp. Sedmnt Settling Velocity (m/day) :  1.00
+
+ Oil Droplet Surfacing Occurs If:
+ Ratio = (buoyancy rise rate)/(mixing speed) >          0.1
+
+ Droplet Density Rate of Change at 10 microns:    0.000000 g/cm3/hr
+
+ Droplets Contacting Shorelines Do Not Stick.
+
+ Concentration grid options:
+     50 x  50 x  5 cells in grid.
+    Expanding grid sized by model each time step.
+    Mass dispersion around LE center:
+       Use Gaussian distribution
+
+ Suspended sediment: 33% organic matter, 45% C
+ Sediment -- Organic carbon percentage: 4%
+
+ Diffusivity coefficients in water at 25 C (cm2/sec):
+   Aromatics, MAHs (BTEX): 0.000010290
+   Aromatics, 2-ring PAHs: 0.000007988
+   Aromatics, 3-ring PAHs: 0.000006690
+ Solubility enhancement factors for dissolution:
+   Aromatics, MAHs (BTEX): 2.20
+   Aromatics, 2-ring PAHs: 2.20
+   Aromatics, 3-ring PAHs: 2.20
+
+
+ Response Assumptions During Time Simulated:
+   No dispersant applied.
+   No removal (mechanical or burning) performed.
+   No collection boom polygons retained oil.
+   No deflection boom polylines deflected oil.
+   No relocation to overflight polygons.
+  
+ *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*  
+
+
+ Properties Assumed for: South Louisiana Crude (Light_Mid)                 
+
+ Crude oil
+ State: Liquid
+
+ Density @ 25.0 deg. C (g/cm3)  :      0.851800
+ Viscosity @ 25.0 deg. C (cp)   :      8.000000
+ Viscosity temperature coef.    :   2980.000000
+ Surface Tension (dyne/cm)      :     25.900000
+ Pour Point (deg. C)            :         -28.0
+ Adsorption Rate to Susp. Sedmnt:      0.010080
+ Adsorption Salinity Coef.(/ppt):      0.023000
+
+ Number of Volatile PseudoComponents:  6
+   Fraction Aromatic Volatiles (component 1):    0.01480000
+   Fraction Aromatic Volatiles (component 2):    0.00223000
+   Fraction Aromatic Volatiles (component 3):    0.00425100
+   Fraction Aromatic Volatiles (total)      :    0.02128100
+   Fraction Aliphatic Volatiles (component 1):    0.16520000
+   Fraction Aliphatic Volatiles (component 2):    0.18677001
+   Fraction Aliphatic Volatiles (component 3):    0.27674901
+   Fraction Aliphatic Volatiles (total)      :    0.62871903
+   Fraction Volatiles (aromatic + aliphatic) :    0.65000004
+
+ Organic carbon partitioning coefficients (Particulate/Dissolved):
+   Aromatic (component 1):        1949.8
+   Aromatic (component 2):        9332.5
+   Aromatic (component 3):       64565.4
+   Aromatic (wt-ave):       15231.3
+
+ Pseudocomponent approach is used for evaporation,
+ based on Mackay and Matsugu (1973) and Payne et al (1984).
+
+ Minimum Oil Thickness (mm)       :    0.010000
+ Maximum Mousse Water Content (%) :       75.00
+
+ Degradation Rate (/day), Surface & Shore:  0.010000
+ Degradation Rate (/day), Oil in Water   :  0.010000
+ Degradation Rate (/day), Oil in Sediment:  0.001000
+ Degradation Rate (/day), Arom. in Water :  0.010000
+ Degradation Rate (/day), Arom. Sediment :  0.001000
+
+ Toxicity Parameters, ppb dissolved aromatics,
+ (This is used only as threshold for fates model outputs.)
+ (Actual LC50 used by biological model is input separately.)
+ Fates threshold = 1/100 of minimum value below:
+ EC50 for growth, phytoplankton, plants:       0.0
+ EC50 for growth, zooplankton          :       0.0
+ LC50, 96 hrs exposure, benth. invert. :       0.0
+ LC50, 96 hrs exposure, fish           :       0.0
+ LC50, 96 hrs exposure, ichthyoplankton:       0.0

@@ -1,0 +1,7 @@
+Total duration (sec):     1310.612
+   # Procedure_Name      call_count      Sec          %
+   1 MAIN                         1    1305.518      99.611
+   2 tPointer               4586264       0.469       0.036      MAIN           Get_CurrentXY2
+   3 Get_CurrentXY          4586263       0.625       0.048      MAIN          
+   4 Get_CurrentXY2         4586263       4.000       0.305      Get_CurrentXY 
+                                       1310.612     100.000

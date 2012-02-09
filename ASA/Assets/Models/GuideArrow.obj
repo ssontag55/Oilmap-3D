@@ -1,0 +1,12 @@
+# Blender v2.59 (sub 0) OBJ File: ''
+# www.blender.org
+mtllib GuideArrow.mtl
+o Plane
+v 1.000000 0.000000 -1.000000
+v -0.000000 0.000000 1.000000
+v -1.000000 0.000000 -1.000000
+v 0.000000 0.000000 -0.329473
+usemtl 
+s off
+f 1 4 2
+f 4 3 2

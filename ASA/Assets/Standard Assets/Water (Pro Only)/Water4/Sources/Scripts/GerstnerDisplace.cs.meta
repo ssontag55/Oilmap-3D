@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 42e7f46d0e5a84171a3909479c1646ba
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - displacement2D: {instanceID: 0}
+  - secondDisplacement2D: {instanceID: 0}
+  - thirdDisplacement2D: {instanceID: 0}
+  - firstCompressed: {instanceID: 0}
+  - secondCompressed: {instanceID: 0}
+  - thirdCompressed: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}

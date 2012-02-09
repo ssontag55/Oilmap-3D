@@ -1,0 +1,71 @@
+
+
+   Summary of Oil Exposure
+   D5000_GOR100_LIGHT-MID              
+
+   On Shorelines
+   -------------
+   Shoreline Oiling:
+
+                                     Oil Thickness <1 mm     Oil Thickness >1 mm 
+   Shore/habitat type                      Area (m2)                 Area (m2)
+
+   Total shoreline                                       0.                        0.
+
+
+
+   Shoreline Oiled (m2) With Average Thickness > Threshold (1mm ~ 1kg/m2):
+
+                                         >1 mm      >0.1 mm     >0.01 mm    >0.001 mm   >0.0001 mm
+
+   Total shoreline                          0.           0.           0.           0.           0.
+
+
+   Total Oil on Shorelines (as Mass and Volume):
+
+   Type                         Shore Width(m)           MT           m3          bbl          gal
+
+   Total shoreline                                 0.000000     0.000000      0.00000       0.0000
+
+
+   Water Exposure (all areas)
+   --------------------------
+
+   Area swept by surface floating oil (any thickness):
+   Total area swept (m2) by >minimum thickness =   0.9283E+09
+   Summed area swept X exposure time (m2-days) =   0.9669E+07
+
+   Area swept by floating oil > thickness (um) = 1000.00
+   Total area swept (m2) > thickness           =   0.0000E+00
+   Summed area swept X exposure time (m2-days) =   0.0000E+00
+
+   Area swept by floating oil > thickness (um) =  100.00
+   Total area swept (m2) > thickness           =   0.0000E+00
+   Summed area swept X exposure time (m2-days) =   0.0000E+00
+
+   Area swept by floating oil > thickness (um) =   10.00
+   Total area swept (m2) > thickness           =   0.6161E+09
+   Summed area swept X exposure time (m2-days) =   0.6418E+07
+
+   Area swept by floating oil > thickness (um) =    1.00
+   Total area swept (m2) > thickness           =   0.9283E+09
+   Summed area swept X exposure time (m2-days) =   0.9669E+07
+
+   Area swept by floating oil > thickness (um) =    0.10
+   Total area swept (m2) > thickness           =   0.9283E+09
+   Summed area swept X exposure time (m2-days) =   0.9669E+07
+
+   Area swept by floating oil > thickness (um) =    0.01
+   Total area swept (m2) > thickness           =   0.9283E+09
+   Summed area swept X exposure time (m2-days) =   0.9669E+07
+
+   Total Water Exposure to Dissolved Aromatic Concentrations:
+   Maximum dose any water parcel (ppb-hours) =     0.2139E+04
+   Volume for maximum dose (m3) =                  0.2779E+08
+   Average dose in volume > 1 ppb (ppb-hours) =    0.6634E+03
+   Volume for ave. dose = max.vol. > 1ppb (m3) =   0.2352E+11
+   Exposure time for average dose (hours) =             48.00
+
+
+____________________________________________________________
+

@@ -1,0 +1,70 @@
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [igdumdx32.dll 8.15.10.2182]
+    Renderer: Intel(R) 4 Series Internal Chipset
+    Vendor:   Intel
+    VRAM:     64 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 DF24=0 INTZ=1 RAWZ=0 NULL=0 RESZ=1 SlowINTZ=0
+desktop: 1280x1024 60Hz; virtual: 2560x1024 at 0,0
+<I> Initializing (RawInput).
+<RI> Input initialized.
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\ssontag\Desktop\unity3d\ASA\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\ssontag\Desktop\unity3d\ASA\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\ssontag\Desktop\unity3d\ASA\test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\ssontag\Desktop\unity3d\ASA\test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\ssontag\Desktop\unity3d\ASA\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\ssontag\Desktop\unity3d\ASA\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\ssontag\Desktop\unity3d\ASA\test_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\ssontag\Desktop\unity3d\ASA\test_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\ssontag\Desktop\unity3d\ASA\test_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\ssontag\Desktop\unity3d\ASA\test_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  1.102 seconds
+Platform assembly: C:\Users\ssontag\Desktop\unity3d\ASA\test_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\ssontag\Desktop\unity3d\ASA\test_Data\Managed\Boo.Lang.dll (this message is harmless)
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 334. Operation took 7.322513 ms.
+DirectoryNotFoundException: Directory 'C:\Users\ssontag\Desktop\unity3d/OUTDATA' not found.
+  at System.IO.Directory.GetFileSystemEntries (System.String path, System.String searchPattern, FileAttributes mask, FileAttributes attrs) [0x00000] in <filename unknown>:0 
+  at System.IO.Directory.GetDirectories (System.String path, System.String searchPattern) [0x00000] in <filename unknown>:0 
+  at System.IO.Directory.GetDirectories (System.String path) [0x00000] in <filename unknown>:0 
+  at FileBrowser.ReadDirectoryContents () [0x00000] in <filename unknown>:0 
+  at FileBrowser.SwitchDirectoryNow () [0x00000] in <filename unknown>:0 
+  at FileBrowser.set_CurrentDirectory (System.String value) [0x00000] in <filename unknown>:0 
+  at ScenarioLoader.FileSelectedCallback (System.String path) [0x00000] in <filename unknown>:0 
+  at FileBrowser.OnGUI () [0x00000] in <filename unknown>:0 
+  at ScenarioLoader.OnGUI () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 231. Operation took 4.611794 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 338. Operation took 7.293872 ms.
+Selected Directory: C:\Users\ssontag\Desktop\unity3d\Scenario
+ 
+(Filename: C:/BuildAgent/work/b0bcff80449a48aa/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 39)
+
+SPILL IS HERE: (-94.3, 0.0, 27.7)
+ 
+(Filename: C:/BuildAgent/work/b0bcff80449a48aa/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 39)
+
+Selected Directory: C:\Users\ssontag\Desktop\unity3d\Scenario/OUTDATA\TEST3D.ZNP
+ 
+(Filename: C:/BuildAgent/work/b0bcff80449a48aa/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 39)
+
+Cell Size: (0.1, 0.1)
+ 
+(Filename: C:/BuildAgent/work/b0bcff80449a48aa/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 39)
+
+Total Tiles: 1,1
+ 
+(Filename: C:/BuildAgent/work/b0bcff80449a48aa/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 39)
+
+Made tile
+ 
+(Filename: C:/BuildAgent/work/b0bcff80449a48aa/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 39)
+
